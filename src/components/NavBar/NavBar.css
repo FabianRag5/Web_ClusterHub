@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  background: #0e1262;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.NavBar {
+  display: flex;
+  gap: 20px;
+}
+
+.NavBar a {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
